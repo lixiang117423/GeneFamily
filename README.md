@@ -45,6 +45,19 @@ python3 src/genefamily/parse_longest_mrna.py -g example/Nipponbare.fa -f example
 ```
 
 ```bash
+parse_longest_mrna -h
+usage: parse_longest_mrna [-h] -g GENOME -f GFF3 -o OUTPUT
+
+Extract longest mRNA transcripts
+
+options:
+  -h, --help           show this help message and exit
+  -g, --genome GENOME  Input genome FASTA file
+  -f, --gff3 GFF3      Input GFF3 annotation file
+  -o, --output OUTPUT  Output FASTA file
+```
+
+```bash
 ################################################################
 Total genes: 57359
 Total transcripts: 67818
