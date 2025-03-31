@@ -15,7 +15,7 @@ Install [miniforge](https://github.com/conda-forge/miniforge) according to the i
 ### Install dependencies
 
 ```bash
-mamba  install conda-forge::biopython=1.85
+mamba install conda-forge::biopython=1.85
 mamba install bioconda::gffread=0.12.7
 mamba install bioconda::seqkit=2.10.0
 
