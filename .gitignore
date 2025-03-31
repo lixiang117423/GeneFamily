@@ -3,3 +3,6 @@ example/Nipponbare.gff3
 example/Nipponbare.fa
 example/longest.pep.fa
 example/Nipponbare.gene.info.txt
+genefamily.egg-info/
+dist/
+
