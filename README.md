@@ -41,10 +41,6 @@ mv NIP-T2T.fa Nipponbare.fa
 ### get the longest transcript for each gene
 
 ```bash
-python3 src/genefamily/parse_longest_mrna.py -g example/Nipponbare.fa -f example/Nipponbare.gff3 -o example/longest.pep.fa
-```
-
-```bash
 parse_longest_mrna -h
 usage: parse_longest_mrna [-h] -g GENOME -f GFF3 -o OUTPUT
 
@@ -55,6 +51,10 @@ options:
   -g, --genome GENOME  Input genome FASTA file
   -f, --gff3 GFF3      Input GFF3 annotation file
   -o, --output OUTPUT  Output FASTA file
+```
+
+```bash
+python3 src/genefamily/parse_longest_mrna.py -g example/Nipponbare.fa -f example/Nipponbare.gff3 -o example/longest.pep.fa
 ```
 
 ```bash
