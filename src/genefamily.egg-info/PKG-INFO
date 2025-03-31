@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: genefamily
-Version: 0.1.1
+Version: 0.1.2
 Summary: Gene family analysis toolkit
 Home-page: https://github.com/lixiang117423/GeneFamily
 Author: Xiang Li
@@ -59,6 +59,19 @@ mv NIP-T2T.fa Nipponbare.fa
 ```
 
 ### get the longest transcript for each gene
+
+```bash
+parse_longest_mrna -h
+usage: parse_longest_mrna [-h] -g GENOME -f GFF3 -o OUTPUT
+
+Extract longest mRNA transcripts
+
+options:
+  -h, --help           show this help message and exit
+  -g, --genome GENOME  Input genome FASTA file
+  -f, --gff3 GFF3      Input GFF3 annotation file
+  -o, --output OUTPUT  Output FASTA file
+```
 
 ```bash
 python3 src/genefamily/parse_longest_mrna.py -g example/Nipponbare.fa -f example/Nipponbare.gff3 -o example/longest.pep.fa
